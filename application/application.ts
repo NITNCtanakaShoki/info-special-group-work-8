@@ -3,7 +3,6 @@ import { State } from "../core/state.ts";
 import { createRewardHandler } from "../core/reward.ts";
 import { DEFAULT_ENVIRONMENT, Environment } from "./environment.ts";
 import { AgentHandler } from "../core/agent.ts";
-import {Member} from "../core/room/member.ts";
 
 export class Application {
   constructor(
